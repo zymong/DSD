@@ -1,0 +1,18 @@
+# @package _global_
+testset:
+  name: kittiTrainSet
+  root_dir: datasets/kitti_scene_flow
+  split: training200
+  n_workers: 8
+
+  disp_provider: ganet
+  max_depth: 90
+  n_points: 16384
+
+  zero_padding:
+    enabled: true
+    target_h: 376
+    target_w: 1242
+
+  augmentation:
+    enabled: false

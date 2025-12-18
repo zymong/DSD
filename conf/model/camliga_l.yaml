@@ -1,0 +1,17 @@
+# @package _global_
+model:
+  name: camliga_l
+  batch_size: 32
+
+  n_iters_train: 10
+  n_iters_eval: 20
+
+  gma3d: true
+  gfe: true
+
+  ids:
+    enabled: true
+
+  loss:
+    gamma: 0.8
+    order: l2-norm

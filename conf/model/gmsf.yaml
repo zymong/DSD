@@ -1,0 +1,19 @@
+# @package _global_
+model:
+  name: gmsf
+  batch_size: 4
+
+  n_iters_train: 10
+  n_iters_eval: 20
+
+  DGCNN: true
+  refinement: true
+  gma: false
+  ag_featc: true
+  feature_migration: false
+  ids:
+    enabled: false
+
+  loss:
+    gamma: 0.9
+    order: robust

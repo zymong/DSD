@@ -1,0 +1,12 @@
+# @package _global_
+testset:
+  name: kittis
+  root_dir: /mnt/save_home_all/home/wxy/code/GMSF/datasets/KITTIs/
+  # split: testing200
+  n_workers: 8
+  batch_size: 4
+
+  disp_provider: ganet
+  max_depth: 90
+  n_points: 8192
+

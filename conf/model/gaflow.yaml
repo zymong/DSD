@@ -1,0 +1,21 @@
+# @package _global_
+model:
+  name: gaflow
+  batch_size: 8
+
+  pretrain:
+    enabled: false
+    depth: 18
+    weights: torchvision://resnet18
+
+  gcl: true
+  ggam: true
+  pola: false
+  gma: false
+  
+  n_iters_train: 12
+  n_iters_eval: 24
+
+  loss:
+    gamma: 0.8
+    order: l2-norm

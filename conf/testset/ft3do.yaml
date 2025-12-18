@@ -1,0 +1,13 @@
+# @package _global_
+testset:
+  name: ft3do
+  root_dir: /mnt/save_home_all/home/wxy/code/GMSF/datasets/FlyingThings3Do
+  train: false
+  n_workers: 8
+  batch_size: 4
+
+  n_points: 8192
+  # max_depth: 35.0
+
+  # augmentation:
+  #   enabled: false

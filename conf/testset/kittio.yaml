@@ -1,0 +1,13 @@
+# @package _global_
+testset:
+  name: kittio
+  root_dir: /mnt/kitti_scene_flow
+  split: training150
+  n_workers: 8
+  batch_size: 4
+
+  disp_provider: ganet
+  max_depth: 90
+  n_points: 8192
+
+

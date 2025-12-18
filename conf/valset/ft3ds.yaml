@@ -1,0 +1,10 @@
+# @package _global_
+valset:
+  name: ft3ds
+  root_dir: /mnt/save_home_all/home/wxy/code/GMSF/datasets/flyingthings3d_subset_non-occluded
+  split: val
+  n_workers: 8
+
+  n_points: 8192
+  # max_depth: 35.0
+
